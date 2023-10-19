@@ -1,0 +1,60 @@
+# 1. Manipulating files and directories
+
+--------------------------------------------------------
+# Where am I?
+
+pwd
+-------------------------------------------------------
+# How can I identify files and directories?
+
+ls seasonal
+-------------------------------------------------------
+# How else can I identify files and directories?
+
+ls course.txt
+ls seasonal/summer.csv
+ls people
+-------------------------------------------------------
+# How can I move to another directory?
+
+cd seasonal
+pwd
+ls
+------------------------------------------------------
+# How can I copy files?
+
+cp seasonal/summer.csv backup/summer.bck
+cp seasonal/summer.csv backup/summer.bck
+-----------------------------------------------
+# How can I move a file?
+
+mv seasonal/spring.csv seasonal/summer.csv backup
+-----------------------------------------------------
+# How can I rename files?
+
+cd seasonal
+mv winter.csv winter.csv.bck
+ls
+------------------------------------------------------
+# How can I delete files?
+
+cd seasonal
+rm autumn.csv
+cd ~   (también se puede usar cd ..)
+rm seasonal/summer.csv
+-----------------------------------------------------
+# How can I create and delete directories?
+
+rm people/agarwal.txt
+rmdir people
+cd ~
+mkdir yearly
+mkdir yearly/2017
+-----------------------------------------------------
+# Wrapping up
+
+cd /tmp
+ls
+mkdir scratch
+mv ~/people/agarwal.txt scratch
+-----------------------------------------------------
